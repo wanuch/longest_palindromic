@@ -11,7 +11,7 @@ func TestLongestPalindrome(t *testing.T) {
 	tests := [...]testType{
 		{
 			in:   "babad",
-			want: "bab",
+			want: "aba",
 		},
 		{
 			in:   "cbbd",
