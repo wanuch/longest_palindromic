@@ -15,6 +15,7 @@ func longestPalindrome(s string) string {
 			end = i + (len / 2)
 		}
 	}
+
 	return s[start : end+1]
 }
 
